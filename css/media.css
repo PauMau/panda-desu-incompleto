@@ -1,0 +1,30 @@
+/* AQUI SE AGREGAN LAS @MEDIA QUE SEGUIRÁ EL NAVEGADOR*/
+
+@media(min-width:200px) and (max-width: 1000px) {  /*entre el ancho min y el ancho maximo*/
+	[class*="col-"]{   /*col- es decir cualquiera sea la col sin importar su numero*/
+		width: 100%     /* se reordene todo y se vea el 100% de la pantalla*/
+	}
+	
+	#pandaDesu{
+		background: url(../img/night.jpg); /*aqui ponemos otra imagen que al aplicarse la media cambiara*/
+	}
+}
+
+
+
+@media(min-width:200px) and (max-width: 1000px) {
+	[class*="col-2"]{
+		width: 50%
+		
+	}
+	.pict{
+		margin-left: 5%
+	}
+}
+
+
+@media(min-width: 200px) and (max-width: 1300px) {
+	[class*="col-6"]{
+		width: 70%
+	}
+}

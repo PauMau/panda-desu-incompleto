@@ -34,11 +34,8 @@ img{
 }
 #aboutPandas{
 	background: lightgreen;
-	width: 100%;	
 }
-.parrafo{
-	
-}
+
 h2{
 	text-align: center;
 	color: white;
@@ -46,9 +43,10 @@ h2{
 }
 .col-6{
 	background-color: salmon;
-	margin-left:25%;
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: justify;
+
 }
 
 #pictures{
